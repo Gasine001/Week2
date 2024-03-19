@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+          
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+           
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+        }
+
+       #home img {
+            width: 60%;
+            height: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .menu img {
+            width: 60%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Image Links</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our website! Here's an image related to technology:</p>
+    <a href="https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo" target="_blank"><img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Technology"></a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <a href="https://unsplash.com/photos/green-trees-with-sun-rays-Otl-rfJEexo" target="_blank"><img src="images/amir-kalhor-Otl-rfJEexo-unsplash.jpg" alt="Nature 1"></a>
+        <a href="https://www.freepik.com/free-photo/group-elephants-big-green-tree-wilderness_10477495.htm" target="_blank"><img src="images/group-elephants-big-green-tree-wilderness.jpg" alt="Nature 2"></a>
+        <a href="https://unsplash.com/photos/green-trees-near-river-under-white-clouds-and-blue-sky-during-daytime-RZTgV2Z3WRc" target="_blank"><img src="images/olga-pro-RZTgV2Z3WRc-unsplash.jpg" alt="Nature 3"></a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul class="menu">
+        <li><a href="https://www.freepik.com/free-photo/freshly-cooked-meat-stew-with-rice-vegetables-generative-ai_40939801.htm#fromView=search&page=1&position=9&uuid=46feec6b-c48b-4aca-a6fa-808f07dc26fd" target="_blank"><img src="images/freshly-cooked-meat-stew-with-rice-vegetables-generative-ai.jpg" alt="Food 1"></a> Food Item 1</li>
+        <li><a href="https://www.freepik.com/free-photo/fresh-orange-juice-glass-dark-background_14746112.htm#fromView=search&page=1&position=5&uuid=46feec6b-c48b-4aca-a6fa-808f07dc26fd" target="_blank"><img src="images/fresh-orange-juice-glass-dark-background.jpg" alt="Food 2"></a> Food Item 2</li>
+        <li><a href="https://unsplash.com/photos/yellow-corns-Ey2Y2vAmx7Q?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash" target="_blank"><img src="images/mae-mu-Ey2Y2vAmx7Q-unsplash.jpg" alt="Food 3"></a> Food Item 3</li>
+    </ul>
+</section>
+
+</body>
+</html>
